@@ -3,7 +3,8 @@ import AppContext from "./AppContext";
 import axios from "axios";
 
 const AppState = ({ children }) => {
-    const url = "http://localhost:1111";
+    const url = "https://restraunt-api-2xwf.onrender.com";
+    // const url = "http://localhost:1111";
 
     const [dish, setDish] = useState([])
     const [isUserLogin, setIsUserLogin] = useState(false)
